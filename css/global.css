@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Bernhard Fashion BT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bernhard Fashion BT'), local('BernhardFashionBT-Regular'),
+        url(fonts/bernhard-fashion-bt/0bf8384286e40d2b85a54c71a03b3ec3.eot),
+        url(fonts/bernhard-fashion-bt/0bf8384286e40d2b85a54c71a03b3ec3.eot?#iefix) format('embedded-opentype'),
+        url(fonts/bernhard-fashion-bt/0bf8384286e40d2b85a54c71a03b3ec3.woff) format('woff'),
+        url(fonts/bernhard-fashion-bt/0bf8384286e40d2b85a54c71a03b3ec3.ttf) format('truetype'),
+        url(fonts/bernhard-fashion-bt/0bf8384286e40d2b85a54c71a03b3ec3.svg) format('svg');
+}
+table tr td:first-child {
+    width: 400px;
+padding: 15px;
+}
+caption{
+align:left;
+font-style:italic;
+margin-top:20px;
+}
+
+img {
+display:block;
+margin: 0 0 0 25px;
+float:right;
+}
+
+body{
+-ms-text-size-adjust: none;
+margin-top:0;
+font-size : 24px;
+font-family: 'Bernhard Fashion BT';
+font-weight:bold;
+}
+
+h3 {
+font-size : 30px;
+font-weight:bold;
+color: #000080;
+}
+
+span.euro {
+font-size : 14px;
+font-weight:normal;
+}
+
+div.container {
+
+
+
+
+	width: 935px;
+
+margin-left: auto;
+    margin-right: auto;
+
+-webkit-box-shadow: 1px 14px 16px 0px rgba(115,115,122,1);
+-moz-box-shadow: 1px 14px 16px 0px rgba(115,115,122,1);
+box-shadow: 1px 14px 16px 0px rgba(115,115,122,1);
+
+}
+
+div.content {
+
+
+ text-align: justify;
+margin-top: 14px;
+min-height: 200px;
+	margin-bottom: 0;
+	margin-left: 10px;
+margin-right: 10px;
+
+color:#805b84;
+
+}
+
+
+div.header{
+background: url(../img/header.png) no-repeat top left #C7DBA8;
+height : 276px;
+	margin-top: 0;
+margin-right:0;
+	margin-left: 0;
+}
+
+.footer{
+height : 156px;
+background: url(../img/footer.png) no-repeat bottom right #FFFFFF;
+}
+
+
+p.active{
+
+display: inline;
+	color : #FFFFFF;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #805b84;
+}
+
+a.inline{
+color:  #805b84;
+text-decoration: underline;
+}
+
+
+.map{
+height:300px;
+width: 300px;
+display: inline-block;
+
+}
+
+div.details{
+display: inline-block;
+}
+
+
+p.details{
+margin : 0 0 0 0;
+}
+
+
+#nav{
+
+    display: table;
+    height: 30px;
+    width: 100%;
+margin: 0 0 0 0;
+padding-left: 0px;
+
+
+}
+
+#nav li{
+
+    display: table-cell;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #C5E3A7;
+    white-space: nowrap;
+}

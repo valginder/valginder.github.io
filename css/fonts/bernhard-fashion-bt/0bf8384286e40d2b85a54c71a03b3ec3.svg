@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="AllFont.net Team">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>Error 404 - page not found :(</title>
+    <meta name="description" content="Page not found. She was moved or never existed.">
+    <meta name="keywords" content="error, 404, not found">
+
+    <meta property="og:site_name" content="AllFont.net">
+    <meta property="og:image" content="http://allfont.net/template/theme/img/logo.png" />
+    <link rel="image_src" href="http://allfont.net/template/theme/img/logo.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/template/theme/css/bootstrap.css" rel="stylesheet">
+    <!-- Documentation extras -->
+    <link href="/template/theme/css/docs.css" rel="stylesheet">
+    <link href="/template/theme/css/pygments.css" rel="stylesheet">
+    <link href="/template/theme/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/template/theme/js/html5shiv.js"></script>
+      <script src="/template/theme/js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Place anything custom after this. -->
+    <link href="/template/theme/css/jquery.minicolors.css" rel="stylesheet">
+    <script src="/engine/min/extsrcjs/extsrc-min.js"></script>
+    <script src="/template/theme/js/jquery.min.js"></script>
+    <script src="/template/theme/js/jquery.cookie.min.js"></script>
+    <script extsrc="/template/theme/js/jquery.minicolors.min.js"></script>
+
+    <script extsrc="/template/theme/js/jquery.fancybox.pack.js"></script>
+
+    <link href="/template/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+    <script type="text/javascript">
+      VK.init({apiId: 3986622, onlyWidgets: true});
+    </script>
+    <script src="//yandex.st/share/cnt.share.js"></script>
+</head>
+<body>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "//counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+
+";"+Math.random();//-->
+</script><!--/LiveInternet-->
+
+<div id="fb-root"></div>
+<script>
+$(document).ready(function() {
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_EN/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+});
+
+extsrc.complete(function() {
+    $(document).ready(function() {
+        $(".fancybox").fancybox({
+            helpers: {
+                live: true,
+            }
+        });
+    });
+});
+</script>
+
+
+    <a class="sr-only" href="#content">Skip navigation</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="/img_font.php?font_id=3550&amp;text=AllFont.net&amp;coeff=80&amp;width=190&amp;color=ffffff&amp;bg=563d7c" alt="AllFont.net" title="" width="190" height="50" />
+            </div>
+            <div class="col-6 col-sm-6 col-lg-6 collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Fonts</a></li>
+                    <li><a href="/categories/">Categories</a></li>
+                    <li><a href="/help/">Help</a></li>
+                    <li><a href="/contact/">Contacts</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" href="#"><img src="/template/theme/img/flags/EN.png" class="flag" alt="" width="22" height="16" /> English</a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                                                    <li><a href="http://allfont.ru/error/404"><img src="/template/theme/img/flags/RU.png" class="flag" alt="" width="22" height="16" /> Русский</a></li>
+                                                                    <li><a href="http://allfont.es/error/404"><img src="/template/theme/img/flags/SP.png" class="flag" alt="" width="22" height="16" /> Español</a></li>
+                                                                    <li><a href="http://allfont.de/error/404"><img src="/template/theme/img/flags/DE.png" class="flag" alt="" width="22" height="16" /> Deutsch</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+            <div class="pull-right" id="gsearch">
+                <div class="main-search">   <form action='/search/' type='GET' class="main-search-form ng-pristine ng-valid">     <input class="main-search-input" type="text" name="s"  placeholder="Search fonts" pattern=".{3,}" required title="At least 3 symbols">       <button class="main-search-submit" type="submit">       <span class="icon icon-search"></span>     </button>   </form> </div>
+            </div>
+        </div><!--/.container-->
+    </header>
+
+    <div id="wrap">
+    <div class="container bs-docs-container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pull-right">
+                <div class="bs-sidebar hidden-print sidebar_categories" role="complementary">
+                    <ul class="nav bs-sidenav">
+                        <li><a href="/3D/" title="Download 3d fonts">3D fonts</a></li>
+                        <li><a href="/alternative/" title="Download alternative fonts">Alternative fonts</a></li>
+                        <li><a href="/art/" title="Download art fonts">Art fonts</a></li>
+                        <li><a href="/brand/" title="Download brand fonts">Brand fonts</a></li>
+                        <li><a href="/comics/" title="Download comics fonts">Comics fonts</a></li>
+                        <li><a href="/pc/" title="Download cyber fonts">Cyber fonts</a></li>
+                        <li><a href="/cyrillic/" title="Download cyrillic fonts">Cyrillic fonts</a></li>
+                        <li><a href="/decorative/" title="Download decorative fonts">Decorative fonts</a></li>
+                        <li><a href="/east/" title="Download eastern fonts">Eastern fonts</a></li>
+                        <li><a href="/graffiti/" title="Download fonts for graffiti">Fonts for graffiti</a></li>
+                        <li><a href="/films/" title="Download fonts from films">Fonts from films</a></li>
+                        <li><a href="/free/" title="Download free fonts">Free fonts</a></li>
+                        <li><a href="/gothic/" title="Download gothic fonts">Gothic fonts</a></li>
+                        <li><a href="/handwritten/" title="Download handwritten fonts">Handwritten fonts</a></li>
+                        <li><a href="/holiday/" title="Download holiday fonts">Holiday fonts</a></li>
+                        <li><a href="/horror/" title="Download horror fonts">Horror fonts</a></li>
+                        <li><a href="/LCD/" title="Download lcd fonts">LCD fonts</a></li>
+                        <li><a href="/letter/" title="Download letter fonts">Letter fonts</a></li>
+                        <li><a href="/outline/" title="Download outline fonts">Outline fonts</a></li>
+                        <li><a href="/retro/" title="Download retro fonts">Retro fonts</a></li>
+                        <li><a href="/russian/" title="Download russian fonts">Russian fonts</a></li>
+                        <li><a href="/sans-serif/" title="Download sans-serif fonts">Sans-Serif fonts</a></li>
+                        <li><a href="/scratched/" title="Download scratched fonts">Scratched fonts</a></li>
+                        <li><a href="/stencil/" title="Download stencil fonts">Stencil fonts</a></li>
+                        <li><a href="/unusual/" title="Download unusual fonts">Unusual fonts</a></li>
+                        <li><a href="/vintage/" title="Download vintage fonts">Vintage fonts</a></li>
+                        <li><a href="/western/" title="Download western fonts">Western fonts</a></li>
+                    </ul>
+                </div><!--/.bs-sidebar-->
+            </div><!--/.col-md-3-->
+
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 pull-left" role="main">
+                <div xmlns:v="http://rdf.data-vocabulary.org/#" class="breadcrumbs">
+                </div><!--/.breadcrumbs-->
+
+        <div class="jumbotron">
+            <h1>Page not found</h1>
+            <p></p>
+        </div>
+        <p>Check the address of the page, and if a mistake was made - try to open it again.</p>
+<p>If all else fails - go to <a href="/" title="Fonts">main page</a> or use search.</p>
+
+                <br/><br/><br/>
+            </div><!--/.col-md-9-->
+
+        </div><!--/.row-->
+    </div><!--/.container-->
+    </div><!--/#wrap-->
+
+    <!-- Footer
+    ================================================== -->
+    <footer role="contentinfo" id="footer">
+        <div class="container">
+            <div class="col-8 col-sm-8 col-lg-8 pull-left">
+                <p class="footer-p">&copy; AllFont.net. 2013-2015</p>
+                <ul class="footer-links">
+                    <li><a href="/categories/">Categories</a></li>
+                    <li class="muted">·</li>
+                    <li><a href="/help/">How to install font</a></li>
+                    <li class="muted">·</li>
+                    <li><a href="/effects/">Effects</a></li>
+
+                    <li class="muted">·</li>
+                    <li><a href="/contact/">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-lg-4 pull-right" style="text-align:right">
+                <p class="footer-p">
+<noindex>
+<!--LiveInternet logo-->
+<a href="http://www.liveinternet.ru/click"
+target="_blank"><img src="//counter.yadro.ru/logo?18.5"
+title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня"
+alt="" border="0" width="88" height="31"/></a>
+<!--/LiveInternet-->
+
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=23773549&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/23773549/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:23773549,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23773549 = new Ya.Metrika({id:23773549,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/23773549" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!--LiveInternet group counter-->
+<script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click;allfont' "+
+"target=_blank><img src='//counter.yadro.ru/hit;allfont?t45.2;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script>
+<!--/LiveInternet group counter-->
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37200824-13', 'allfont.net');
+  ga('send', 'pageview');
+</script>
+<!-- /Google Analytics -->
+</noindex>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/template/theme/js/bootstrap.js"></script>
+    <script src="/template/theme/js/widgets.js"></script>
+    <script src="/template/theme/js/holder.js"></script>
+    <script src="/template/theme/js/application.js"></script>
+
+</body>
+</html>
