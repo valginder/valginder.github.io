@@ -37,18 +37,6 @@ function swap(to_hide, to_display) {
    }
 }
 </script>
-<script>
-function showhide(to_change) {
-    var current = document.getElementById(to_change).style.display;
-if(current == 'none'){
-document.getElementById(to_change).style.display = 'block';
-} else {
-document.getElementById(to_change).style.display = 'none';}
-
-
-}
-</script>
-
 
 <link href="css/global.css" media="screen" rel="stylesheet" type="text/css" />
 <meta name="description" content="Sur le secteur de Colmar, soins esthétiques et de bien-être (gommage, enveloppement, modelage et massage non thérapeutique) pour un suivi  beauté, vitalité, mieux-être, santé, amincissement, développement personnel, connaissance de soi"  />
@@ -121,7 +109,7 @@ document.getElementById(to_change).style.display = 'none';}
 <p>Diplômée d'Etat en soins esthétiques avec une spécialisation en conseils et vente de cosmétiques, Valérie a éprouvé professionnellement ses compétences dans le domaine.
 Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher en se formant à la pratique de</p>
 <ul>
-<li>méthodes manuelles : digitopuncture, massage intuitif, shiatsu, thérapie en "Structure Osseuse Alchimique" <a : lien vers soatherapie.com>(soath'erapie)</li>
+<li>méthodes manuelles : digitopuncture, massage intuitif, shiatsu, thérapie en <a class="inline" href="http://soatherapie.com/?page_id=15">Structure Osseuse Alchimique</a>,</li>
 <li>relaxation psychocorporelle : exercices respiratoires,</li>
 <li>hygiénisme et phytothérapie.</li>
 </ul>
@@ -156,9 +144,9 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 <h3>Soins Corps et relaxation</h3>
      <p>Ponctuellement ou suivis régulièrement (au mini. 1 fois tous les 3 mois et maxi. 1 fois par mois) ils dynamisent le renouvellement cellulaire de votre peau par stimulation de la circulation sanguine, et donc augmentent votre tonus. De plus, ils apportent une réponse au besoin d'hydratation de votre peau, et améliorent le potentiel d'élasticité de celle-ci pour cultiver votre "capital jeunesse".</p>
-<p><a class="inline" href="#relaxanchor" onclick="showhide('relax')">Voir prestations et tarifs</a></p>
+<p id="voirRelax"><a class="inline" href="#relaxanchor" onclick="swap('voirRelax','relax')">Voir prestations et tarifs</a></p>
 <div id="relax" style="display:none">
-
+<p><a class="inline" href="#relaxanchor" onclick="swap('relax','voirRelax')">Prestations et tarifs</a></p>
 <table>
 <tr>
 <td>Beauté des mains (sans pose vernis) + modelage</td> <td>30 <span class="euro"><span class="euro">€</span></span></td>
@@ -194,8 +182,9 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 </li>
    <li id="manuanchor"><h3>Méthodes manuelles de bien-être</h3>
     <p>Sur 3, 6, 9 ou 12 séances, chacune des pratiques permettra de vous suivre efficacement dans la réalisation de vos objectifs (amincissement, bien-être, santé, développement personnel, connaissance de soi).</p>
-<p><a class="inline" href="#manuanchor" onclick="showhide('manu')">Voir tarifs</a></p>
+<p id="voirManu"><a class="inline" href="#manuanchor" onclick="swap('voirManu','manu')">Voir prestations et tarifs</a></p>
 <div id="manu" style="display:none">
+<p><a class="inline" href="#manuanchor" onclick="swap('manu','voirManu')">Prestations et tarifs</a></p>
 <table>
 <tr>
 <td>Massage relaxant vital</td> <td>58 <span class="euro">€</span></td>
@@ -221,9 +210,9 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 </li>
 <li id="atelieranchor"><h3>Ateliers et conseils de bien-être</h3>
     <p>Précédés d'un entretien, vous y découvrirez des protocoles et expérimenterez des technologies vivantes du bien-être pour le corps physique, les espaces de vie privée et professionnelle.</p>
-<p><a class="inline" href="#atelieranchor" onclick="showhide('atelier')">Voir tarifs</a></p>
+<p id="voirAtelier"><a class="inline" href="#atelieranchor" onclick="swap('voirAtelier','atelier')">Voir prestations et tarifs</a></p>
 <div id="atelier" style="display:none">
-
+<p><a class="inline" href="#atelieranchor" onclick="swap('atelier','voirAtelier')">Prestations et tarifs</a></p>
 <table>
 <tr>
 <td>Hygiène alimentaire</td> <td>20 <span class="euro">€</span></td>
@@ -344,8 +333,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <li><a href="#" onclick="swap('temoignages','lien')" class="nav">Liens</a></li>
 </ul>
 
-<div class="content">
-<p></p>
+<div class="content ctemoignage">
 <p>
 La prestation de Valérie fut un pur moment de détente et de bonheur... simple.
 Valérie est douce et prévenante. Son massage, de la tête aux pieds, recto-verso, permet de lâcher prise pendant plus d'une heure.
