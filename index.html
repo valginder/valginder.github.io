@@ -100,7 +100,7 @@ var marker = new google.maps.Marker({
 <li><a href="#" onclick="swap('esthéticienne','temoignages')" class="nav">Témoignages</a></li>
 <li><a href="#" onclick="swap('esthéticienne','calendrier')" class="nav">Calendrier</a></li>
 <li><a href="#" onclick="swap('esthéticienne','contact')" class="nav">Contact</a></li>
-<li><a href="#" onclick="swap('esthéticienne','lien')" class="nav">Liens</a></li>
+<li><a href="#" onclick="swap('esthéticienne','liens')" class="nav">Liens</a></li>
 </ul>
 
 
@@ -144,8 +144,9 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <ul>
  <li id="relaxanchor">
 
+<table>
 <p>Les produits cosmétiques utilisés sont formulés avec des plantes, des huiles essentielles et végétales issues pour l'ensemble de l'agriculture biologique.
-</tr>
+
 </li>
    <li id="soinsanchor"><h3>Soins Corps et relaxation</h3>
      <p>Ponctuellement ou suivis régulièrement (au mini. 1 fois tous les 2 à 3 mois, et maxi. 1 à 2 fois par mois), ils dynamisent le renouvellement cellulaire de votre peau par stimulation de la circulation sanguine, ils apportent une réponse au besoin d'hydratation de votre peau, et améliorent le potentiel d'élasticité de celle-ci pour cultiver votre "capital jeunesse". De plus, ces soins optimisent votre tonus physique.</p>
@@ -153,13 +154,14 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <div id="relax" style="display:none">
 <p><a class="inline" href="#relaxanchor" onclick="swap('relax','voirRelax')">Prestations et tarifs</a></p>
 <table>
-<tr>
+
+<table>
 <td>Beauté des mains (sans pose vernis) + modelage relaxant et régénérant</td> 
-<td>40 mn <td>40 <span class="euro"><span class="euro">€</span></span></td>
+    <td>40 mn <td>40 <span class="euro"><span class="euro">€</span></span></td>
 </tr>
 <tr>
-<td>Beauté des pieds (sans pose vernis) + modelage relaxant et vitalisant</td><td>40 <span class="euro">€</span></td>
-<td>40 mn<td>40 <span class="euro">€</span></span></td>
+<td>Beauté des pieds (sans pose vernis) + modelage relaxant et vitalisant</td>
+    <td>40 mn  <td>40 <span class="euro">€</span></span></td>
 </tr>
 <tr>
 <td>Gommage corps aux sels marins</td><td>28 <span class="euro">€</span></td>
@@ -168,10 +170,11 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <td>Enveloppement à l'argile</td><td>28 <span class="euro">€</span></td>
 </tr>
 <tr>
-<td>Modelage relaxant californien</td><td>58 <span class="euro">€</span></td>
+<td>Modelage relaxant californien Corps ou dos</td>
+<td>30 mn  32 <span class="euro">€</span></td>
+<td>60 mn  64 <span class="euro">€</span></td>
 </tr>
 <tr>
-<td>Modelage apaisant du dos</td><td>28 <span class="euro">€</span></td>
 </tr>
 </table>
 
@@ -179,12 +182,13 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <caption>Forfaits "Détente" et soins complets </caption>
 <tr>
 <td>Gommage corps + enveloppement + modelage relaxant californien</td>
-<td>1h30<span class="euro">85€</span></td>
-<tr>
-<td>2h00<span class="euro">105€</span></td>
+<td>1h30   <span class="euro">85€</span></td>
+</tr>
+<td>2h00   <span class="euro">105€</span></td>
 </tr>
 <tr>
-<td>Gommage dos + cataplasme + modelage apaisant</td><td>65 <span class="euro">€</span></td>
+<td>Gommage dos + cataplasme + modelage apaisant californien</td>
+<td>1h30   <span class="euro">65 <span class="euro">€</span></td>
 </tr>
 </table>
 </div>
@@ -203,14 +207,13 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <td>Massage sportif</td> <td> 62 <span class="euro">€</span></td>
 </tr>
 <tr>
-<td>Réflexologie (visage ou mains ou pieds)</td><td> 38 <span class="euro">€</span></td>
+<td>Réflexologie (visage ou mains ou pieds)</td><td> 45 <span class="euro">€</span></td>
 </tr>
 <tr>
 <td>Digitopuncture</td><td> 58 <span class="euro">€</span></td>
 </tr>
 <tr>
 <td>Structure Osseuse Alchimique</td><td> 58 <span class="euro">€</span></td>
-</tr>
 </table>
 
 <table>
@@ -407,8 +410,8 @@ Marie - Thann
 <p>Découvrez nos prestations lors de ces événements<p>
 
 <ul>
-<li>Les 26 et 27 septembre 2015 de 14h à 18h au Marché de la St Michel à Kaysersberg,</li>
-<li>Les 21 et 22 novembre 2015 de 10h à 18h au Salon du Bien Être à la Cité de l'habitat Lutterbach.</li>
+<li>"Portes Ouvertes pour la Découverte"
+<li>Vendredis 22 et 29 - samedis 23 et 30 janvier 2016 de 16h à 18h30 aux Parcs de la Fecht à Ingersheim </li>
 </ul>
 
 </div>
