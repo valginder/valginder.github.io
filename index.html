@@ -40,7 +40,7 @@ var marker = new google.maps.Marker({
 </script>
 
 <link href="css/global.css" media="screen" rel="stylesheet" type="text/css" />
-<meta name="description" content="Sur le secteur de Colmar, soins de bien-être au naturel Visage et Corps : corps massages de bien-être Visage et Corps relaxants rééquilibrants et énergisants ; diagnostic de peau et conseils de soins visage et corps ; création de cosmétiques naturels"  />
+<meta name="description" content="Sur le secteur de Colmar, soins de bien-être au naturel Visage et Corps : massages de bien-être Visage et Corps relaxants rééquilibrants énergisants ; diagnostic de peau et conseils de soins visage et corps ; création de cosmétiques naturels"  />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="Content-Language" content="fr" />
 <title>Simples Bonheurs</title>
@@ -56,7 +56,7 @@ var marker = new google.maps.Marker({
 
 <ul id="nav">
 <li><p class="active">Acceuil</p></li>
-<li><a href="#" onclick="swap('acceuil','estheticienne')" class="nav">Qui est votre esthéticienne?</a></li>
+<li><a href="#" onclick="swap('acceuil','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><a href="#" onclick="swap('acceuil','tarif')" class="nav">Prestations et tarifs</a></li>
 <li><a href="#" onclick="swap('acceuil','temoignages')" class="nav">Témoignages</a></li>
 <li><a href="#" onclick="swap('acceuil','calendrier')" class="nav">Calendrier</a></li>
@@ -66,7 +66,7 @@ var marker = new google.maps.Marker({
 
 <div class="content">
 <img src="img/acceuil.png"/>
-<p>Vous souhaitez être accompagné/ée pour cultiver votre beauté, votre bien-être ... !</p>
+<p>Vous souhaitez être accompagné/ée pour cultiver votre bien-être, restimuler les fonctions métaboliques pour un regain de tonus et vitalité,  ... !</p>
 <p>A votre domicile, </p>
 
 <p>Valérie vous propose un suivi identifié après un premier entretien d'accueil,</p>
@@ -89,19 +89,19 @@ var marker = new google.maps.Marker({
 
 
 
-<div class="container" style="display:none" id="estheticienne">
+<div class="container" style="display:none" id="praticienne">
 
 <div class="header">
 </div>
 
 <ul id="nav">
 <li><a href="#" onclick="swap('estheticienne','acceuil')" class="nav">Acceuil</a></li>
-<li><p class="active">Qui est votre esthéticienne?</p></li>
-<li><a href="#" onclick="swap('estheticienne', 'tarif')" class="nav">Prestations et tarifs</a></li>
-<li><a href="#" onclick="swap('estheticienne','temoignages')" class="nav">Témoignages</a></li>
-<li><a href="#" onclick="swap('estheticienne','calendrier')" class="nav">Calendrier</a></li>
-<li><a href="#" onclick="swap('estheticienne','contact')" class="nav">Contact</a></li>
-<li><a href="#" onclick="swap('estheticienne','lien')" class="nav">Liens</a></li>
+<li><p class="active">Qui est votre praticienne?</p></li>
+<li><a href="#" onclick="swap('praticienne', 'tarif')" class="nav">Prestations et tarifs</a></li>
+<li><a href="#" onclick="swap('praticienne','temoignages')" class="nav">Témoignages</a></li>
+<li><a href="#" onclick="swap('praticienne','calendrier')" class="nav">Calendrier</a></li>
+<li><a href="#" onclick="swap('praticienne','contact')" class="nav">Contact</a></li>
+<li><a href="#" onclick="swap('praticienne','lien')" class="nav">Liens</a></li>
 </ul>
 
 
@@ -112,7 +112,7 @@ var marker = new google.maps.Marker({
 <p>Diplômée d'Etat en soins esthétiques et conseils en cosmétiques, Valérie a éprouvé professionnellement ses compétences dans le domaine.
 Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher en se formant à la pratique de</p>
 <ul>
-<li>méthodes manuelles pour le bien-être global : digitopuncture et shiatsu , modelages et massages (californien, suédois, drainant, amincissant, relaxant, énergétisant, intuitif), réflexologie (visage, mains et pieds),  thérapie en <a class="inline" href="http://soatherapie.com/?page_id=15">Structure Osseuse Alchimique</a> (soathérapie),</li>
+<li>méthodes manuelles pour le bien-être global : digitopuncture et shiatsu , modelages et massages (californien, suédois, drainant, amincissant, relaxant, énergétisant, intuitif), réflexologie (visage, mains et pieds), modelage liftant énergisant, thérapie en <a class="inline" href="http://soatherapie.com/?page_id=15">Structure Osseuse Alchimique</a> (soathérapie),</li>
 <li>relaxation psychocorporelle : exercices respiratoires,</li>
 <li>création de cosmétiques naturels,</li>
 <li>hygiénisme et phytothérapie.</li>
@@ -133,7 +133,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 <ul id="nav">
 <li><a href="#" onclick="swap('tarif','acceuil')" class="nav">Acceuil</a></li>
-<li><a href="#" onclick="swap('tarif','estheticienne')" class="nav">Qui est votre esthéticienne?</a></li>
+<li><a href="#" onclick="swap('tarif','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><p class="active">Prestations et tarifs</p></li>
 <li><a href="#"  onclick="swap('tarif','temoignages')"  class="nav">Témoignages</a></li>
 <li><a href="#"  onclick="swap('tarif','calendrier')" class="nav">Calendrier</a></li>
@@ -148,35 +148,13 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <p>Pour tout "bon cadeau", Valérie se fera un plaisir de vous accompagner dans un choix de prestations.</p>
 <ul>
  <li id="relaxanchor">
-<h3>Soins esthétiques Visage, Corps et détente</h3>
-     <p>Ponctuellement ou suivis régulièrement (au mieux 1 à 2 fois par mois), ils dynamisent le renouvellement cellulaire de votre peau par stimulation de la circulation sanguine, ils apportent une réponse au besoin d'hydratation de votre peau, et améliorent le potentiel d'élasticité de celle-ci pour cultiver votre "capital jeunesse". De plus, ces soins optimisent votre tonus physique. A noter que toutes prestations esthétiques agissent pour le bien-être et en aucun à utiliser comme thérapie médicale</p>
+<h3>Soins détoxifiants relaxants Visage et Corps </h3>
+     <p>Ponctuellement ou suivis régulièrement (au mieux 1 à 2 fois par mois), ils dynamisent le renouvellement cellulaire de votre peau par stimulation de la circulation sanguine, ils apportent une réponse au besoin d'hydratation de votre peau, améliorent le potentiel d'élasticité de celle-ci pour cultiver votre "capital jeunesse". De plus, ces soins optimisent votre tonus et votre vitalité physique. A noter que toutes les prestations agissent pour le bien-être et en aucun sont à utiliser comme thérapie médicale</p>
 <p id="voirRelax"><a class="inline" href="#relaxanchor" onclick="swap('voirRelax','relax')">Voir prestations et tarifs</a></p>
 <div id="relax" style="display:none">
 <p><a class="inline" href="#relaxanchor" onclick="swap('relax','voirRelax')">Prestations et tarifs</a></p>
 
 <table>
-
-<tr>
-<td>Soin Visage : gommage, masque, modelage drainant liftant, épilation sourcils et lèvres</td>
-<td>72 <span class="euro">€</span> (2h00)</td>
-</tr>
-
-<tr>
-<td>Beauté des mains (sans pose vernis) + modelage relaxant régénérant</td>
-<td>50 <span class="euro">€</span> (45 mn)</td>
-</tr>
-
-<tr>
-<td>Beauté des pieds (sans pose vernis) + modelage relaxant vitalisant</td>
-<td>50 <span class="euro">€</span> (45 mn)</td>
-</tr>
-
-<tr>
-<td>Gommage corps aux sels marins</td>
-<td>28 <span class="euro">€</span></td>
-</tr>
-
-</table>
 
 <table>
 <caption>Forfaits et soins complets</caption>
@@ -184,14 +162,14 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <tr>
   <td>
     <h4>Soins corps relaxant (1h45)</h4>
-    <p>Gommage corps + enveloppement + modelage bien-être</p></td>
+    <p>Gommage corps + enveloppement + modelage détente et vitalité au choix (cf.méthodes manuelles ci-dessous)</p></td>
 <td>130 <span class="euro">€</span> </td>
 </tr>
 
 <tr>
   <td>
     <h4>Soins et détente du dos (1h15)</h4>
-    <p>Gommage + enveloppement + modelage bien-être</p></td>
+    <p>Gommage + enveloppement + réflexologie bien-être</p></td>
 <td>75 <span class="euro">€</span> </td>
 </tr>
 
@@ -217,7 +195,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 </li>
    <li id="manuanchor"><h3>Méthodes manuelles de bien-être</h3>
-    <p>Sur 3, 6, 9 ou 12 séances (45 à 60 mn pour une séance), chacune des pratiques permettra de vous suivre efficacement dans la réalisation de vos objectifs (amincissement, bien-être, santé, développement personnel, connaissance de soi).</p>
+    <p>Sur 3, 6, 9 ou 12 séances (30 à 60 mn pour une séance), chacune des pratiques permettra de vous suivre efficacement dans la réalisation de vos objectifs (amincissement, bien-être, santé, développement personnel, connaissance de soi).</p>
 <p id="voirManu"><a class="inline" href="#manuanchor" onclick="swap('voirManu','manu')">Voir prestations et tarifs</a></p>
 <div id="manu" style="display:none">
 <p><a class="inline" href="#manuanchor" onclick="swap('manu','voirManu')">Prestations et tarifs</a></p>
@@ -226,14 +204,17 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <td>Massage relaxant équilibrant des 4 saisons (printemps, été, automne,hiver)</td> <td> 65 <span class="euro">€</span>(50mn)</td>
 </tr>
 <tr>
-<td>Massage énergisant suédois</td> <td> 62 <span class="euro">€</span>(50mn)</td>
+<td>Massage énergisant suédois</td> <td> 65 <span class="euro">€</span>(50mn)</td>
+</tr>
+<tr>
+<td>Massage détoxifiant énergisant du visage</td> <td> 65 <span class="euro">€</span>(50mn)</td>
 </tr>
 
 <tr>
-<td>Réflexologie visage</td><td> 32 <span class="euro">€</span> (30mn ou 1h00)</td>
+<td>Réflexologie visage</td><td> 32 à 64 <span class="euro">€</span> (30mn ou 1h00)</td>
 </tr>
 <tr>
-<td>Réflexologie mains, pieds</td><td> 32 <span class="euro">€</span> (30mn) / 62 <span class="euro">€</span> (60mn)</td>
+<td>Réflexologie mains, pieds</td><td> 32 <span class="euro">€</span> (30mn) / 64 <span class="euro">€</span> (60mn)</td>
 </tr>
 <tr>
 <td>Digitopuncture</td><td> 58 <span class="euro">€</span>(50mn)</td>
@@ -250,7 +231,6 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <li id="atelieranchor"><h3>Conseils et ateliers de bien-être</h3>
     <p>Précédés d'un entretien, vous y découvrirez et expérimenterez</p>
 <ul>
-<li>des protocoles de soins pour le visage et le corps physique,</li>
 <li>des recettes et des astuces en hygiène alimentaire, création de cosmétiques naturels.</li>
 </ul>
 <p id="voirAtelier"><a class="inline" href="#atelieranchor" onclick="swap('voirAtelier','atelier')">Voir prestations et tarifs</a></p>
@@ -261,10 +241,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <td>Hygiène alimentaire</td> <td>20 <span class="euro">€</span></td>
 </tr>
 <tr>
-<td>Diagnostic + conseils de soin beauté et bien-être</td><td>25 <span class="euro">€</span></td>
-</tr>
-<tr>
-<td>Ateliers "création cosmétiques naturels" (à partir de 2 personnes)</td><td>85 <span class="euro">€</span></td><td>par personne</span></td>
+<td>Atelier "création de cosmétiques naturels" (à partir de 2 personnes)</td><td>85 <span class="euro">€</span></td><td>par personne</span></td>
 <td>NB : Veuillez noter que le tarif est dégressif en fonction du nombre de personnes participantes.
 </tr>
 </table>
@@ -287,7 +264,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 <ul id="nav">
 <li><a href="#" onclick="swap('contact','acceuil')" class="nav">Acceuil</a></li>
-<li><a href="#" onclick="swap('contact','estheticienne')" class="nav">Qui est votre esthéticienne?</a></li>
+<li><a href="#" onclick="swap('contact','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><a href="#" onclick="swap('contact','tarif')" class="nav">Prestations et tarifs</a></li>
 <li><a href="#" onclick="swap('contact','temoignages')" class="nav">Témoignages</a></li>
 <li><a href="#"  onclick="swap('contact','calendrier')" class="nav">Calendrier</a></li>
@@ -321,7 +298,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 <ul id="nav">
 <li><a href="#" onclick="swap('lien','acceuil')" class="nav">Acceuil</a></li>
-<li><a href="#" onclick="swap('lien','estheticienne')" class="nav">Qui est votre esthéticienne?</a></li>
+<li><a href="#" onclick="swap('lien','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><a href="#" onclick="swap('lien','tarif')" class="nav">Prestations et tarifs</a></li>
 <li><a href="#" onclick="swap('lien','temoignages')" class="nav">Témoignages</a></li>
 <li><a href="#" onclick="swap('lien','calendrier')" class="nav">Calendrier</a></li>
@@ -372,7 +349,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 
 <ul id="nav">
 <li><a href="#" onclick="swap('temoignages','acceuil')" class="nav">Acceuil</a></li>
-<li><a href="#" onclick="swap('temoignages','estheticienne')" class="nav">Qui est votre estéticienne?</a></li>
+<li><a href="#" onclick="swap('temoignages','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><a href="#" onclick="swap('temoignages','tarif')" class="nav">Prestations et tarifs</a></li>
 <li><p class="active">Témoignages</p></li>
 <li><a href="#" onclick="swap('temoignages','calendrier')" class="nav">Calendrier</a></li>
@@ -380,7 +357,7 @@ Complémentairement, elle a souhaité valoriser sa sensibilité et son toucher e
 <li><a href="#" onclick="swap('temoignages','lien')" class="nav">Liens</a></li>
 </ul>
 
-<div class="content ctemoignage">
+<div class="content temoignage">
 <p>
 La prestation de Valérie fut un pur moment de détente et de bonheur... simple.
 Valérie est douce et prévenante. Son massage, de la tête aux pieds, recto-verso, permet de lâcher prise pendant plus d'une heure.
@@ -415,7 +392,7 @@ Marie - Thann
 
 <ul id="nav">
 <li><a href="#" onclick="swap('calendrier','acceuil')" class="nav">Acceuil</a></li>
-<li><a href="#" onclick="swap('calendrier','estheticienne')" class="nav">Qui est votre esthéticienne?</a></li>
+<li><a href="#" onclick="swap('calendrier','praticienne')" class="nav">Qui est votre praticienne?</a></li>
 <li><a href="#" onclick="swap('calendrier','tarif')" class="nav">Prestations et tarifs</a></li>
 <li><a href="#" onclick="swap('calendrier','temoignages')" class="nav">Témoignages</a></li>
 <li><p class="active">Calendrier</p></li>
